@@ -1,0 +1,334 @@
+// /* .login-container {
+//   margin-top: 1px;
+//   margin-left: 500px;
+//   width: 100%;
+//   height: 100%;
+//   max-width: 500px;
+//   align-items: center;
+//   padding: 110px;
+//   background-color: rgb(214, 253, 209);
+//   border: 1px solid rgb(178, 213, 224);
+//   border-radius: 5px;
+  
+//   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+// }
+// .cont{
+//   background-color: rgb(193, 175, 175);
+//   background-size: 100%;
+//   height: 100%;
+//   background-image: url(https://img.freepik.com/free-vector/realistic-spring-background_52683-32785.jpg?w=1060&t=st=1696337560~exp=1696338160~hmac=e5f3523ae5573dbeb5b5f31ae1c407d7fe9c02e6497f18408c3a3a5306b19c9d);
+  
+// }
+
+// .login-heading {
+//   font-size: 24px;
+//   text-align: center;
+//   margin-bottom: 20px;
+//   color: #827878;
+// }
+
+// .login-form {
+//   display: flex;
+//   flex-direction: column;
+//   height: 100%;
+// }
+
+// .form-group {
+//   margin-bottom: 20px;
+// }
+
+// label {
+//   font-size: 16px;
+//   margin-bottom: 6px;
+//   color: #484646;
+// }
+
+// .input-field {
+//   width: 100%;
+//   padding: 10px;
+//   font-size: 16px;
+//   border: 1px solid #cbbebe;
+//   border-radius: 5px;
+// }
+
+// .login-button {
+//   background-color: #a1a7ab;
+//   color: #1d3c7b;
+//   padding: 10px;
+//   font-size: 18px;
+//   border: none;
+//   border-radius: 5px;
+//   cursor: pointer;
+//   transition: background-color 0.3s;
+// }
+
+// .login-button:hover {
+//   background-color: #41a275;
+// }
+
+// .login-info {
+//   text-align: center;
+//   margin-top: 20px;
+//   color: #181616;
+// }
+
+// .login-info a {
+//   color: #1e9126;
+//   text-decoration: none;
+// }
+
+// .login-info a:hover {
+//   text-decoration: underline;
+// }
+// .sam{
+//   height: 100%;
+// } 
+// LoginPage.css */
+
+// /* LoginPage.scss
+
+// /* .log {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 100vh;
+//   background-color: #f2f2f2;
+// }
+
+// .login-container {
+//   background-color: #fff;
+//   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+//   border-radius: 5px;
+//   padding: 20px;
+//   width: 350px;
+// }
+
+// .login-content {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+// }
+
+// .login-form {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+// }
+
+// .login-form h2 {
+//   font-size: 24px;
+//   margin-bottom: 10px;
+// }
+
+// .login-form p {
+//   font-size: 16px;
+//   color: #777;
+//   margin-bottom: 20px;
+// }
+
+// .form-group {
+//   margin-bottom: 15px;
+// }
+
+// input[type="text"],
+// input[type="password"] {
+//   width: 100%;
+//   padding: 10px;
+//   border: 1px solid #ccc;
+//   border-radius: 5px;
+//   outline: none;
+//   font-size: 16px;
+// }
+
+// button[type="submit"] {
+//   background-color: #007fff;
+//   color: #fff;
+//   padding: 10px 20px;
+//   border: none;
+//   border-radius: 5px;
+//   font-size: 18px;
+//   cursor: pointer;
+// }
+
+// button[type="submit"]:hover {
+//   background-color: #0056b3;
+// }
+
+// p.login-info {
+//   margin-top: 20px;
+//   font-size: 16px;
+//   text-align: center;
+// } */
+
+// /* Customize additional styles as needed */
+
+// /* If you have a login image, you can add styles for it here */
+// /*
+// .login-image img {
+//   max-width: 100%;
+//   height: auto;
+// }*/
+
+// .cont {
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   min-height: 100vh; /* Ensures the background covers the entire viewport height */
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .login-container {
+
+//     width: 100%;
+//     max-width: 400px;
+//     margin-top:5px;
+//     margin-left:500px;
+//     padding: 40px;
+//     background-color: rgb(214, 223, 220);;
+//     border: 1px solid lightblue;
+//     border-radius: 30px;
+//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+//   }
+  
+  
+//   .login-heading {
+//     font-size: 24px;
+//     text-align: center;
+//     margin-bottom: 20px;
+//     color: #333;
+//   }
+  
+//   .login-form {
+//     display: flex;
+//     flex-direction: column; 
+//   }
+  
+//   .form-group {
+//     margin-bottom: 20px;
+//   }
+  
+//   label {
+//     font-size: 16px;
+//     margin-bottom: 6px;
+//     color: #555;
+//   }
+  
+//   .input-field {
+//     width: 100%;
+//     padding: 10px;
+//     font-size: 16px;
+//     border: 1px solid #ccc;
+//     border-radius: 5px;
+//   }
+  
+//   .login-button {
+//     background-color: #81a3c5;
+//     color: #161515;
+//     padding: 10px;
+//     font-size: 18px;
+//     border: none;
+//     border-radius: 5px;
+//     cursor: pointer;
+//     transition: background-color 0.3s;
+//   }
+  
+//   .login-button:hover {
+//     background-color: #a8c9eb;
+//   }
+  
+//   .login-info {
+//     text-align: center;
+//     margin-top: 20px;
+//     color: #777;
+//   }
+  
+//   .login-info a {
+//     color: #007bff;
+//     text-decoration: none;
+//   }
+  
+//   .login-info a:hover {
+//     text-decoration: underline;
+//   }
+
+
+// .log{
+//   margin: auto;
+// padding-top: 100px;
+// text-align: center;
+// font-family: Arial, sans-serif;
+
+// background-repeat: no-repeat;
+// }
+.log {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  width: 400px;
+  
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #dfefd3;
+  // background-image: url('https://th.bing.com/th/id/OIP.W8apTKARTqVhmLzMCisNmAHaEs?w=311&h=197&c=7&r=0&o=5&dpr=1.3&pid=1.7'); /* Replace 'background.jpg' with your image file path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.login-form h2 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.login-form p {
+font-size: 16px;
+margin-bottom: 20px;
+}
+
+.form-group {
+margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+button[type="submit"] {
+background-color: #007FFF;
+color: #fff;
+padding: 10px 15px;
+border: none;
+border-radius: 4px;
+font-size: 18px;
+cursor: pointer;
+}
+
+button[type="submit"]:hover {
+background-color: #0056b3;
+}
+
+a {
+color: #007FFF;
+text-decoration: none;
+font-size: 15px;
+}
+
+a:hover {
+text-decoration: underline;
+}

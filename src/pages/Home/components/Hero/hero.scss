@@ -1,0 +1,38 @@
+@import "../../../../vendors/mixins";
+@import "../../../../vendors/variables";
+
+.hero {
+    .hero-content {
+        height: 524px;
+        background-image: url(https://img.freepik.com/free-photo/agriculture-food-production-concept-with-tractor-machine-silos-irrigation-system_342744-565.jpg?w=1060&t=st=1696089746~exp=1696090346~hmac=c1340e1e7adfb4b42919a68b1008730cc26aa57d1b5f0c723fe873afa7194c6e);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom right;
+        
+        
+
+        @media(max-width: 922px) {
+            height: 430px;
+            
+        }
+
+        @media(max-width: 767px) {
+            padding: 70px 0 70px 40px;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: $main-color;
+
+            @media(max-width: 922px) {
+                font-size: 40px;
+            }
+
+            @media(max-width: 544px) {
+                font-size: 32px;
+            }
+        }
+    }
+}

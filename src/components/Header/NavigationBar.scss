@@ -1,0 +1,77 @@
+// .navbar {
+//   background-color: #333;
+//   padding: 10px 20px;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+
+// .logo-container {
+//   display: flex;
+//   align-items: center;
+//   width: 10px;
+//   height: 20px;
+
+// }
+
+
+//   /* Adjust the logo size to 50px by 50px */
+// .logo {
+//   width: 20px;
+//   height: 20px;
+// }
+
+
+
+// .nav-list {
+//   list-style: none;
+//   padding: 0;
+//   display: flex;
+// }
+
+// .nav-item {
+//   margin-left: 20px;
+// }
+
+// .nav-item:first-child {
+//   margin-left: 0;
+// }
+
+// .nav-item a {
+//   text-decoration: none;
+//   color: #fff;
+// }
+
+// /* Styles for the menu icon */
+// .menu-icon {
+//   cursor: pointer;
+//   display: none; /* Hide the menu icon by default */
+// }
+
+// /* Responsive styles for smaller screens */
+// @media screen and (max-width: 768px) {
+//   .menu-icon {
+//     display: block; /* Display the menu icon on smaller screens */
+//   }
+
+//   .nav-list {
+//     flex-direction: column;
+//   }
+
+//   .nav-item {
+//     margin-left: 0;
+//     margin-bottom: 10px;
+//   }
+
+//   .nav-item:first-child {
+//     margin-left: 0;
+//   }
+
+//   /* Show/hide navigation links based on the 'open' class */
+//   .open {
+//     .nav-list {
+//       display: flex;
+//     }
+//   }
+// }
+
